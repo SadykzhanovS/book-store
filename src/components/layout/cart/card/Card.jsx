@@ -17,7 +17,7 @@ function Card({ image, title, author, price, count, id }) {
     <div className={styles.card}>
       <img
         className={styles.image}
-        src={"./public/products/" + image}
+        src={"./products/" + image}
         alt="book image"
       />
       <div className={styles.content}>

@@ -25,7 +25,7 @@ function Detail({ image, favorites, id, title, author, description, price }) {
       <div className="container">
         <div className={styles.box}>
           <img
-            src={"./public/products/" + image}
+            src={"./products/" + image}
             alt="image book"
             className={styles.image}
           />
