@@ -1,0 +1,77 @@
+.card {
+  width: 200px;
+}
+
+.image {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 10px 12px 10px -6px rgba(61, 60, 60, 0.3607843137);
+  margin-bottom: 25px;
+}
+
+.image:hover {
+  cursor: pointer;
+}
+
+.other {
+  width: 200px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.price {
+  padding: 8px 0;
+  width: 135px;
+  text-align: center;
+  border: 2px solid #3D3C3C;
+  border-radius: 20px;
+  font-family: "Syne", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.333;
+  color: #3d3c3c;
+}
+
+.favorites {
+  padding: 9px 18px;
+  border: 2px solid #3D3C3C;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.favorites:hover,
+.favoritesActive:hover {
+  cursor: pointer;
+}
+
+.favoritesActive {
+  padding: 9px 18px;
+  border: 2px solid #3D3C3C;
+  border-radius: 20px;
+  background-color: #3AB8EB;
+  transition: all 0.3s ease;
+}
+
+.favoritesActive path {
+  stroke: white;
+}
+
+.cart {
+  padding: 7px 0;
+  width: 100%;
+  border: 2px solid #3D3C3C;
+  border-radius: 20px;
+  background-color: #FDBF0F;
+  transition: background-color 0.3s ease;
+}
+
+.cart:hover {
+  background-color: #F9784B;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Card.module.css.map */

@@ -1,0 +1,84 @@
+.header
+  padding: 60px 0
+
+.box
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.logo
+  display: flex
+  align-items: center
+  gap: 10px
+
+.logo:hover
+  cursor: pointer
+
+.book
+  width: 28px
+  height: 22px
+
+.title
+  font-family: "Unica One", sans-serif
+  font-weight: 400
+  font-size: 22px
+  line-height: 1.333
+  color: #3d3c3c
+
+.other
+  display: flex
+  align-items: center
+  gap: 25px
+
+.other > a,
+.other > div
+  position: relative
+  display: flex
+  align-items: center
+  justify-content: center
+
+.icon *,
+.iconLast *
+  transition: all 0.3s ease
+
+.icon:hover,
+.iconLast:hover
+  cursor: pointer
+
+.icon:hover *,
+.iconLast:hover *
+  stroke: #3AB8EB
+
+.iconLast:hover path:first-child
+  fill: #3AB8EB
+
+.icon.active,
+.iconLast.active
+  stroke: #3AB8EB
+
+.circle
+  display: none
+
+.circleActive
+  position: absolute
+  right: -4px
+  top: -3px
+  width: 12px
+  height: 12px
+  background-color: #3AB8EB
+  border-radius: 50%
+
+.circleActive > p
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+  font-family: "Syne", sans-serif
+  font-weight: 400
+  font-size: 10px
+  line-height: 1
+  color: #FFFFFF
+
+@media (max-width: 768px)
+  .header
+    padding: 7.81vw 0

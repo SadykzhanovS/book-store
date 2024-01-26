@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 220px;
+}
+
+@media (max-width: 768px) {
+  .home {
+    gap: 28.65vw;
+  }
+}
+
+/*# sourceMappingURL=Home.module.css.map */

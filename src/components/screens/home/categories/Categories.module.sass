@@ -1,0 +1,60 @@
+.box
+  display: flex
+  flex-direction: column
+  gap: 45px
+
+.heading
+  display: flex
+  align-items: center
+  gap: 15px
+
+.title
+  font-family: "Unica One", sans-serif
+  font-weight: 400
+  font-size: 36px
+  line-height: 1.333
+  color: #3D3C3C
+
+.buttons
+  display: flex
+  align-items: center
+  justify-content: center
+  gap: 50px
+  flex-wrap: wrap
+
+.button
+  padding: 20px 0
+  width: 380px
+  border: 2px solid #3D3C3C
+  border-radius: 10px
+  background-color: white
+  box-shadow: 10px 15px 0 #F9784B
+  font-family: "Syne", sans-serif
+  font-weight: 400
+  font-size: 24px
+  line-height: 1.333
+  color: #3D3C3C
+  transition: all 0.3s ease
+
+.button:hover
+  cursor: pointer
+  color: white
+  background-color: #FDBF0F
+
+@media (max-width: 768px)
+  .buttons
+    gap: 6.51vw
+
+  .button
+    padding: 3.26vw
+
+@media (max-width: 425px)
+  .box
+    gap: 10.59vw
+    flex-wrap: nowrap
+
+  .title
+    font-size: 8.47vw
+
+  .button
+    width: 89.41vw

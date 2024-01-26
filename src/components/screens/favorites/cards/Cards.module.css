@@ -1,0 +1,47 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 30px;
+  overflow-x: auto;
+}
+
+.empty {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.empty p {
+  font-family: "Syne", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.333;
+  color: #F9784B;
+}
+
+@media (max-width: 1024px) {
+  .cards {
+    column-gap: 4.88vw;
+  }
+}
+@media (max-width: 425px) {
+  .box {
+    gap: 10.59vw;
+  }
+  .empty > p {
+    font-size: 8.47vw;
+  }
+}
+
+/*# sourceMappingURL=Cards.module.css.map */

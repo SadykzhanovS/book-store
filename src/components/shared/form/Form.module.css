@@ -1,0 +1,47 @@
+.form {
+  overflow: hidden;
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  border-radius: 20px;
+  border: 2px solid #3d3c3c;
+  box-shadow: 5px 10px 0 #fdbf0f;
+}
+
+.input {
+  width: 100%;
+  padding: 11px 20px;
+  font-family: "Syne", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.333;
+  color: #3d3c3c;
+}
+
+.input::placeholder {
+  color: #3d3c3c;
+}
+
+.button {
+  padding: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.button * {
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:hover * {
+  stroke: #3AB8EB;
+}
+
+/*# sourceMappingURL=Form.module.css.map */

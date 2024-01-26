@@ -1,0 +1,38 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.title {
+  font-family: "Unica One", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.333;
+  color: #3D3C3C;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+@media (max-width: 425px) {
+  .box {
+    gap: 10.59vw;
+  }
+  .title {
+    font-size: 8.47vw;
+  }
+}
+
+/*# sourceMappingURL=More.module.css.map */
