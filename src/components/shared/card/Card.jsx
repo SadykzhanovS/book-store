@@ -19,7 +19,7 @@ function Card({ id, image, price, favorites }) {
       <Link to={`/${id}`}>
         <img
           className={styles.image}
-          src={"./public/products/" + image}
+          src={"./products/" + image}
           alt="card image"
         />
       </Link>
